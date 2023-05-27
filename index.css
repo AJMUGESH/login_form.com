@@ -1,0 +1,88 @@
+*
+{
+    padding:0;
+    margin:0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    color:wheat;
+    
+    
+    
+}
+body{
+background-color:blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container
+{
+   background-color:white; color:black;
+   position: relative;
+   margin-top: 100px;
+   min-width: 200px;
+   height: auto;
+   padding: 20px 50px;
+   
+    
+}
+.logo
+{
+   font-size: larger;
+      color:black;
+      font-weight: 500;
+      font-size: 30px;
+      margin-left: 30px;
+
+}
+.email
+{
+    margin-top: 15px;
+    font-size: 20px;
+    
+    
+}.container input{ padding: 5px 10px ; width: 250px;}
+.password
+{
+    margin-top:20px;
+    font-size: 20px;
+}
+.container button[type=submit]
+{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    
+    padding: 5px 10px;
+    width: 250px;
+   
+    color:black;
+    background-color: rgb(30, 153, 30);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.passerror
+{
+    font-size: 19px;
+    background-color: rgb(208, 97, 97);
+    margin-top: 1px;
+    color: red;
+}
+.emailerror
+{
+    display: none;
+    font-size: 19px;
+    background-color: rgb(208, 97, 97);
+    margin-top: 1px;
+    color: red;
+}
+.passerror
+{
+    display:none;
+    font-size: 19px;
+    background-color: rgb(208, 97, 97);
+    margin-top: 1px;
+    color: red;
+
+}
